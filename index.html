@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>최민우 — Data Analyst (Finance, Customer &amp; Ops)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-grid" aria-hidden="true"></div>
+    <div class="glow" aria-hidden="true"></div>
+
+    <main class="card" id="card">
+      <div class="card__shine" aria-hidden="true"></div>
+
+      <div class="avatar-wrap">
+        <div class="avatar-ring">
+          <img
+            class="avatar"
+            src="assets/avatar-character.png"
+            width="160"
+            height="160"
+            alt="최민우 캐릭터 프로필"
+          />
+        </div>
+      </div>
+
+      <div class="role">
+        <span class="role__title">Data Analyst</span>
+        <span class="role__scope">(Finance, Customer &amp; Ops)</span>
+      </div>
+      <h1 class="name">최민우</h1>
+      <p class="tagline" id="tagline">
+        데이터로 패턴을 읽고, 인사이트를 발굴하여 의사결정을 지원합니다.
+      </p>
+
+      <ul class="contacts" role="list">
+        <li class="contact-block">
+          <span class="contact__label">이메일</span>
+          <div class="contact-row">
+            <a class="contact" href="mailto:dnalschl1989@gmail.com">
+              <span class="contact__icon" aria-hidden="true">@</span>
+              <span class="contact__text">dnalschl1989@gmail.com</span>
+            </a>
+            <button type="button" class="copy-btn" data-copy="dnalschl1989@gmail.com" aria-label="이메일 주소 복사">
+              복사
+            </button>
+          </div>
+        </li>
+        <li class="contact-block">
+          <span class="contact__label">Phone Number</span>
+          <div class="contact-row">
+            <a class="contact" href="tel:01080803335">
+              <span class="contact__icon" aria-hidden="true">☎</span>
+              <span class="contact__text">010-8080-3335</span>
+            </a>
+            <button type="button" class="copy-btn" data-copy="010-8080-3335" aria-label="전화번호 복사">
+              복사
+            </button>
+          </div>
+        </li>
+      </ul>
+
+      <p class="hint" id="copyHint" role="status" aria-live="polite"></p>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
